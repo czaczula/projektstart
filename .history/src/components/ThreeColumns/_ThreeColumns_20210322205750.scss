@@ -1,0 +1,31 @@
+@import '../../scss/settings/_colors.scss';
+@import '../../scss/settings/fonts';
+
+.ThreeColumnsBackground {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $col10;
+    width: 1900px;
+    height: 384px;
+    
+
+    .h1 {
+        font-family: $font-base;
+        font-size: 90px;
+        font-weight: light;
+        color: $col8;
+        top: 1010px;
+        left: 279px;
+        width: 102px;
+        height: 122px;
+    }
+    .h2 {
+        font-family: $font-base;
+    }
+    .h3 {
+        font-family: $font-alt;
+
+    }
+}

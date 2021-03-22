@@ -1,0 +1,37 @@
+@import "../scss/reset.css";
+@import '../scss/settings/_normalize.scss';
+// @import './scss/settings/_colors.scss';
+@import './settings/_fonts.scss'; 
+@import '../components/AboutUs/_AboutUs.scss';
+@import '../components/ContactUs/_ContactUs.scss';
+@import '../components/LittleDo/_LittleDo.scss';
+@import '../components/Home/_Home.scss';
+@import '../components/LogIn/_LogIn.scss';
+// @import '../components/LogRegister/_LogRegister.scss';
+// @import '../components/LogOut/_LogOut.scss';
+@import '../components/Nav/_Nav.scss';
+// @import '../components/Articlecol/_Articlecol.scss';
+// @import '../components/ForWho/_ForWho.scss';
+// @import '../components/Navigation/_StartButtons.scss';
+@import '../components/Footer/_Footer.scss';
+// @import '../components/Form/_Form.scss';
+
+
+/// Helper do oczyszczania floatów
+/// @author Nicolas Gallagher
+/// @link http://nicolasgallagher.com/micro-clearfix-hack/ Micro Clearfix
+// @mixin clearfix {
+//     &::after {
+//       content: '';
+//       display: table;
+//       clear: both;
+//     }
+//   }
+
+
+body {
+    max-width: 1960px;
+    font-family: $font-base;
+}
+
+    

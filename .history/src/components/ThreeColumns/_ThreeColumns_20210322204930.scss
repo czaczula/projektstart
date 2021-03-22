@@ -1,0 +1,13 @@
+@import '../../scss/settings/_colors.scss';
+@import 
+.ThreeColumnsBackground {
+    display: flex;
+    background-color: $col10;
+    width: 1900px;
+    height: 384px;
+
+    .h1 {
+        font-family: Open;
+
+    }
+}

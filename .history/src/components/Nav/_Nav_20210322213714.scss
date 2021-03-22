@@ -1,0 +1,41 @@
+@import '../../scss/settings/colors'
+.Head {
+    display: flex;
+
+    .LeftHeadImg {
+    background: transparent url('../../assets/Home-Hero-Image.jpg') 0% 0% no-repeat padding-box;
+    height: 936px;
+    width: 1368px;
+    margin-top: 0%;
+    margin-left: -483px;
+    opacity: 1;
+}
+
+.HeadContainer {
+    display: block;
+
+    .MenuList {
+        max-width: 638px;
+        height: 95px;
+        margin-left: 240px;
+        margin-top: 37px;
+
+        .UpMenuList1 {
+            display: flex;
+            justify-content: space-between;
+            padding-left: 420px;
+
+            .UpButtonLink {
+                padding-left: 30px;
+                padding-right: 10px;
+                font-size: 14px;
+                color: 
+            }
+        }
+    }
+
+}
+}
+
+
+
