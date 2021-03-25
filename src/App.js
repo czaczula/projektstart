@@ -12,7 +12,6 @@ import LogOut from './components/Register/LogOut.js';
 
 function App() {
   return (
-    <div>
       <Router>
         <Switch>
           <Route exact path="/" component={Home} />
@@ -21,7 +20,6 @@ function App() {
           <Route exact path='/register' component={Register} />
         </Switch>
       </Router>
-    </div>
   );
 }
 export default App;

@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function ContactUs() {
     return (
-        <div>
-            
+        <div id='ContactUs'>
+            Kontakt
         </div>
     )
 }

@@ -16,7 +16,7 @@ export default function ThreeColumns() {
                     <h3>Lorem tabarolem</h3>
                 </div>
                 <div className='Col3' id='Col3'>
-                    <h1>5</h1>
+                    <h1>7</h1>
                     <h2>Zorganizowanych zbiórek</h2>
                     <h3>Lorem tabarolem</h3>
                 </div>

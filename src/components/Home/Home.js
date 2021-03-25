@@ -19,11 +19,10 @@ import Nav from '../Nav/Nav.js';
 export default function Home() {
     return (
         <>
-
             <Nav/>
             <ThreeColumns/>
-            <AboutUs/>
             <LittleDo/>
+            <AboutUs/>
             <WhoWeHelp/>
             <ContactUs/>
             <Footer/>

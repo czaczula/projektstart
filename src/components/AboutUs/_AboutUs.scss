@@ -1,15 +1,31 @@
-// import '../scss/settings/_colors.scss';
+@import '../../scss/settings/colors';
 
 .AboutUsContainer {
-    width: 1900px;
-    color: #F07070;
+    width: 100vh;
+    color: $col6;
 
 }
 
-.AboutUs
-            .AboutUsScr
-            .AboutUsDec
-            .AboutUsSig
-            .AboutUsImg {
-            background-image: '../../a';
+.AboutUs    
+            {
+                display: flex;
+                width: 100vw;
+                height: 100vh;
+            }
+            .AboutUsScr, .AboutUsDec, .AboutUsSig {
+
+                display: flex;
+                flex-direction: column-reverse;
+                position: relative;
+                height: 90vh;
+                width: 52vw;
+            }
+            .AboutUsImg 
+            {
+                display: flex;
+                height: 90vh;
+                width: 48vw;
+                background: transparent url('../../assets/People.jpg') 0% 0% no-repeat padding-box;
+                background-position: right;
+                background-size: cover;
         }

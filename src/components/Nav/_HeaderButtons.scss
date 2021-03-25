@@ -1,0 +1,41 @@
+@import '../../scss/settings/colors';
+@import '../../scss/settings/fonts';
+
+.Buttons {
+
+width: 30vw;
+
+.HeaderButton1{
+    margin-top: 30vh;
+    width: 50vw;
+    height: 50vh;
+    border: 2vw solid $col5;
+    opacity: 1;
+    text-transform: uppercase;
+    font: normal normal 300 Open Sans;
+    text-align: center;
+    background-color: #fff;
+    opacity: 1;
+    text-decoration: none;
+    color: red;
+}
+.HeaderButton2 {
+    margin-top: 30vh;
+    margin-left: 0;
+    width: 50vw;
+    height: 50vh;
+    border: 2vw solid $col5;
+    opacity: 1;
+    text-transform: uppercase;
+    font: normal normal 300 Open Sans;
+    text-align: center;
+    background-color: #fff;
+    opacity: 1;
+    text-decoration: none;
+    color: $col5;
+}
+a{
+    text-decoration: none;
+    color: $col5;
+}
+}
